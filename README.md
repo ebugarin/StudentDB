@@ -10,6 +10,7 @@ This project is designed to interact with a University API to retrieve student d
 ## Features
 
 - Fetch student details from the University API
+- Create a SQLite database from the API Json
 - Calculate total credit hours and GPA for each student
 - Automatically drop courses for full-time students with grades below 40
 - Reset the test database to clear application state
