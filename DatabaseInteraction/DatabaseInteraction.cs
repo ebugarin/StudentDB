@@ -38,7 +38,7 @@ namespace StudentDB.DatabaseInteraction
                         .Sum(course => GradeToPoint(course.Grade) * course.CreditHours);
 
                     var gpa = totalCreditHours > 0 ? Math.Round(totalPoints / totalCreditHours, 2) : 0;
-                    Console.WriteLine($"GPA; {gpa}");
+                    //Console.WriteLine($"GPA; {gpa}");
 
                     dbContext.Students.Add(new Student
                     {
